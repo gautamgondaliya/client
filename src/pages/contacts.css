@@ -1,0 +1,17 @@
+
+
+
+.main-contactpage{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.verticalline{
+  width: 3px;
+  height: 2000px;
+  background-color: black;
+  margin-top: -20px;
+  margin-left: 20px;
+}

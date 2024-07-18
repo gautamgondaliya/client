@@ -1,0 +1,150 @@
+.main-rightdahboard-con{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.firstsectiontext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textleftdash{
+    display: flex;
+    flex-direction: row;
+}
+.rightdashbtn button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 160px;
+    height: 36px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.main-text-left{
+    font-size: 25px;
+}
+.layoutimg{
+    margin-right: 10px;
+
+}
+.exportimg{
+    margin-right: 10px;
+}
+
+/* secondsection
+ */
+
+ .secondsectiondash{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #F4F4F4;
+    border-radius: 6px;
+ }
+ 
+ .firstpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+   
+ }
+ .firstpart h2{
+    margin: 0px;
+
+ }
+ .firstpart h1{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6C63FF;
+ }
+
+ .secondpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .secondpart h2{
+    margin: 0px;
+
+ }
+ .secondpart h1{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6C63FF;
+ }
+
+ .thirdpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .thirdpart h2{
+    margin: 0px;
+
+ }
+ .thirdpart h1{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6C63FF;
+ }
+
+ .forthpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+   
+ }
+ .forthpart h2{
+    margin: 0px;
+
+ }
+ .forthpart h1{
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6C63FF;
+ }
+
+
+ .h2maintext{
+    font-size: 16px;
+
+ }
+ .verticalline-small{
+    width:2px;
+    height:62px;
+    border-radius: 6px;
+    background-color: #000000;
+ }
+
+ .h1lasttextuser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }

@@ -1,0 +1,54 @@
+
+*, *:before, *:after {
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px; 
+         
+    
+  }
+
+div{
+    font-weight: 700; 
+}
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Styles for the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: gray; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Border radius of the scrollbar thumb */
+}
+
+/* Styles for the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background: #f0f0f0; /* Background color of the scrollbar track on hover */
+}
+
+/* Animation for the scrollbar thumb */
+@keyframes scrollAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  animation: scrollAnimation 1.5s infinite; /* Apply animation to the scrollbar thumb */
+}
